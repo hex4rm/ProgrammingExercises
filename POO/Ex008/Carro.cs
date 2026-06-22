@@ -1,8 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Ex008 {
+    class Carro : Veiculo {
 
-namespace Ex008 {
-    internal class Carro {
+        double litro;
+        public override double CalcularConsumo(double distancia) {
+            return distancia / litro;
+        }
+
     }
 }

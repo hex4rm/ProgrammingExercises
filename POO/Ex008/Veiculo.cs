@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ex008 {
-    internal class Veiculo {
+﻿namespace Ex008 {
+    class Veiculo {
+        public virtual double CalcularConsumo(double distancia) {
+            return 0;
+        }
     }
 }

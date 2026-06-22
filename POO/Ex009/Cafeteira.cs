@@ -1,8 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Ex009 {
+    class Cafeteira : ILigavel {
 
-namespace Ex009 {
-    internal class Cafeteira {
+        bool Estado;
+        public void ligar() {
+            if (Estado == true) {
+                Console.WriteLine("Cafeteira está ligada.");
+            }
+            else {
+                Estado = true;
+                Console.WriteLine("Aquecendo água para café");
+            }
+        }
+
+        public void desligar() {
+            if (Estado == true) {
+                Estado = false;
+                Console.WriteLine("Cafeteira desligada");
+            }
+            else {
+                Console.WriteLine("Cafeteira está desligada");
+            }
+        }
     }
 }

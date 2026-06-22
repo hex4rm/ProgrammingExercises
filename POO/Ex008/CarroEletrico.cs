@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Ex008 {
-    internal class CarroEletrico {
+    class CarroEletrico : Carro {
+
+        public override double CalcularConsumo(double distancia) {
+            
+        }
     }
 }

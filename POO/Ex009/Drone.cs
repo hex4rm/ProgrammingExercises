@@ -1,8 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Ex009 {
+    class Drone : ILigavel {
+        bool Estado;
 
-namespace Ex009 {
-    internal class Drone {
+        public void ligar() {
+            Estado = true;
+            Console.WriteLine("inicia hélices e exibe “Drone iniciando voo");
+        }
+        public void desligar() {
+            Estado = false;
+            Console.WriteLine("Drone pousando e desligando motores");
+
+        }
     }
 }

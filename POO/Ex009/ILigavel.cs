@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ex009 {
-    internal interface ILigavel {
+﻿namespace Ex009 {
+    interface ILigavel {
+        void ligar();
+        void desligar();
     }
 }
