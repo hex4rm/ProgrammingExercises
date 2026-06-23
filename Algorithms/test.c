@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include "testando.h"
 
-int main(){
-
-  printf("Hello, World from NVIM!");
-
+int main()
+{
+  MessageError();
   return 0;
 }
